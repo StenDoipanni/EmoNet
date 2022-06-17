@@ -4,7 +4,7 @@ EmoNet is the repository for knowledge graphs including semantic triggers of Emo
 
 ## Building the Resource
 
-Here you find listed some of the queries performed to the [Framester]() endpoint to retrieve emotion semantic triggers.
+Here you find listed some of the queries performed to the [Framester](http://etna.istc.cnr.it/framester2/sparql) endpoint to retrieve emotion semantic triggers.
 
 Query to retrieve all the verbs from VerbNet and PropBank using some lexical unit as variable. 
 
