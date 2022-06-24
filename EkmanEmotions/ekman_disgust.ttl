@@ -1,0 +1,80 @@
+
+@prefix ek: <http://www.semanticweb.org/sdg/ontologies/2022/4/ekman_disgust#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix emoc: <http://www.ontologydesignpatterns.org/ont/emotions/EmoCore.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/ont/emotions/ekman_disgust.owl> a owl:Ontology ;
+	rdfs:comment """Ekman Disgust is the module including all semantic/lexical triggers for the notion of "Disgust" according to Ekman Theory.""" ;
+	owl:versionInfo """0.1 - 10.06.2022
+
+Introduced triggers from VerbNet, WordNet and PropBank.
+Ekman emotions triggers are taken from atlasofemotions.org, the Paul Ekman Foundation site, using as variable for the SPARQL queries to build the coverage the bootstrapped lexical units presented on the website as related to some specific emotion.
+
+
+Designed by Stefano De Giorgis and Aldo Gangemi.""" .
+
+
+
+
+ek:triggers a owl:ObjectProperty ;
+	rdfs:comment "Some entity triggers some ek:Disgust." .
+
+
+
+
+<https://w3id.org/framester/vn/vn31/data/Withdraw_10010000> ek:triggers ek:Disgust .
+<https://w3id.org/framester/vn/vn31/data/Puke_40010200> ek:triggers ek:Disgust .
+<https://w3id.org/framester/vn/vn31/data/Spew_90500000> ek:triggers ek:Disgust .
+<https://w3id.org/framester/vn/vn31/data/Retch_40010200> ek:triggers ek:Disgust .
+<https://w3id.org/framester/vn/vn31/data/Dislike_31020000> ek:triggers ek:Disgust .
+<https://w3id.org/framester/vn/vn31/data/Draw_10010000> ek:triggers ek:Disgust .
+<https://w3id.org/framester/vn/vn31/data/Pull_away_82100000> ek:triggers ek:Disgust .
+<https://w3id.org/framester/vn/vn31/data/Recede_51010000> ek:triggers ek:Disgust .
+<https://w3id.org/framester/vn/vn31/data/Spew_43040000> ek:triggers ek:Disgust .
+<https://w3id.org/framester/vn/vn31/data/Vomit_40010210> ek:triggers ek:Disgust .
+<https://w3id.org/framester/vn/vn31/data/Disgust_31010000> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-vomiter-noun-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-withdrawal-noun-3> ek:triggers ek:Disgust .
+<https://w3id.org/framester/pb/pbdata/dislike.01> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-withdrawer-noun-4> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-withdrawal_symptom-noun-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-withdrawal-noun-6> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-withdraw-verb-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-withdrawer-noun-3> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-withdrawal-noun-2> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-abhorrent-adjectivesatellite-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-withdrawer-noun-2> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-distasteful-adjectivesatellite-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-bank_withdrawal-noun-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-abhorrer-noun-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-vomit-noun-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-withdrawer-noun-5> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-dislike-verb-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-abhorrence-noun-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-repugnance-noun-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-withdrawer-noun-6> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-loathsomeness-noun-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-distastefully-adverb-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/pb/pbdata/withdraw.01> ek:triggers ek:Disgust .
+<https://w3id.org/framester/pb/pbdata/vomit.01> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-dehumanize-verb-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-aversion_therapy-noun-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-dehumanize-verb-2> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-withdrawal-noun-4> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-withdrawal-noun-5> ek:triggers ek:Disgust .
+<https://w3id.org/framester/pb/pbdata/loathe.01> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-dislike-noun-2> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-vomit-verb-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-vomitory-noun-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-extraversion-noun-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-withdrawal-noun-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-withdrawal-noun-9> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-aversion-noun-2> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-loath-adjectivesatellite-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-withdrawer-noun-1> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-withdraw-verb-9> ek:triggers ek:Disgust .
+<https://w3id.org/framester/wn/wn30/instances/synset-vomit-noun-3> ek:triggers ek:Disgust .

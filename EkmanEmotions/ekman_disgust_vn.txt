@@ -1,0 +1,11 @@
+<https://w3id.org/framester/vn/vn31/data/Withdraw_10010000>
+<https://w3id.org/framester/vn/vn31/data/Puke_40010200>
+<https://w3id.org/framester/vn/vn31/data/Spew_90500000>
+<https://w3id.org/framester/vn/vn31/data/Retch_40010200>
+<https://w3id.org/framester/vn/vn31/data/Dislike_31020000>
+<https://w3id.org/framester/vn/vn31/data/Draw_10010000>
+<https://w3id.org/framester/vn/vn31/data/Pull_away_82100000>
+<https://w3id.org/framester/vn/vn31/data/Recede_51010000>
+<https://w3id.org/framester/vn/vn31/data/Spew_43040000>
+<https://w3id.org/framester/vn/vn31/data/Vomit_40010210>
+<https://w3id.org/framester/vn/vn31/data/Disgust_31010000>
